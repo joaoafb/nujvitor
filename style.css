@@ -1,0 +1,288 @@
+body {
+    user-select: none;
+    margin: 0;
+    padding: 0;
+    overflow: 0;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.home {
+    background-color: white;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    background-color: #8A05BE;
+    width: 97%;
+    height: auto;
+    border-radius: 35px;
+}
+
+.perfil {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.foto {
+    text-align: right;
+    color: white;
+    margin: 25px;
+    transition: all 0.3s;
+}
+
+.foto:hover {
+    opacity: 60%;
+    transition: all 0.3s;
+}
+
+.olho {
+    text-align: right;
+    color: white;
+    margin: 25px;
+    transition: all 0.3s;
+}
+
+.olho:hover {
+    opacity: 60%;
+    transition: all 0.3s;
+}
+
+.alert {
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.icon {
+    margin-bottom: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: transparent;
+}
+
+.icon i {
+    color: blueviolet;
+    padding: 5px;
+    zoom: 150%;
+}
+
+.content {
+    transition: all 0.3s;
+    margin: 5px;
+    font-size: 10pt;
+    color: blueviolet;
+    background-color: white;
+    width: 160px;
+    height: auto;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content2 {
+    transition: all 0.3s;
+    margin: 5px;
+    font-size: 10pt;
+    color: white;
+    background-color: rgba(137, 43, 226, 0.411);
+    width: 160px;
+    height: auto;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.icon2 {
+    margin-bottom: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: transparent;
+    color: white;
+}
+
+.icon2 i {
+    padding: 5px;
+    zoom: 150%;
+}
+
+.conta {
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+}
+
+.flex col {
+    flex-direction: column;
+}
+
+.conta span {
+    font-size: 12pt;
+}
+
+.conta h1 {
+    font-size: 13pt;
+}
+
+.seta {
+    color: blueviolet;
+    position: absolute;
+    right: 25px;
+    margin-top: -40px;
+}
+
+.seta i {
+    float: right;
+}
+
+.content:hover {
+    background-color: rgba(255, 255, 255, 0.822);
+    transition: all 0.3s;
+}
+
+.content2:hover {
+    background-color: rgba(137, 43, 226, 0.589);
+    transition: all 0.3s;
+}
+
+.menu {
+    padding: 10px;
+    margin: 20px;
+    margin-top: -20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+}
+
+.option {
+    margin: 6px;
+    text-align: center;
+    font-size: 9pt;
+    display: flex;
+    flex-direction: column;
+}
+
+.option .circle {
+    width: 65px;
+    height: 65px;
+    border-radius: 100px;
+    background-color: rgba(128, 128, 128, 0.233);
+}
+
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle i {
+    color: rgb(46, 46, 46);
+    zoom: 180%;
+}
+
+.option span {
+    padding-top: 5px;
+}
+
+.cards {
+    margin-bottom: 10px;
+    margin-top: -5px;
+    display: flex;
+    align-items: center;
+    width: 85%;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.233);
+}
+
+.cards span {
+    font-size: 10pt;
+}
+
+.icon3 {
+    padding-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: transparent;
+}
+
+.icon3 i {}
+
+.fatura {
+    margin-top: 25px;
+    padding-left: 45px;
+    display: flex;
+    flex-direction: column;
+}
+
+.pagar {
+    border-radius: 20px;
+    width: auto;
+    background-color: rgb(180, 0, 0);
+    width: 100px;
+    font-size: 9pt;
+    height: 32px;
+    border: 0;
+    color: white;
+}
+
+.mtop {
+    margin-top: 15px;
+}
+
+.parcelar {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    border-radius: 20px;
+    background-color: rgba(128, 128, 128, 0.233);
+    width: auto;
+    font-size: 9pt;
+    height: 32px;
+    border: 0;
+}
+
+.txtcard {
+    font-size: 12pt;
+}
+
+.txt {
+    padding-top: 10px;
+    color: rgb(165, 165, 165);
+    font-size: 9pt;
+}
+
+.valor {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 13pt;
+}
+
+.vencimento {
+    color: rgb(165, 165, 165);
+    font-size: 7pt;
+}
+
+hr {
+    opacity: 50%;
+}
